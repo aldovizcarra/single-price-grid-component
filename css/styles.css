@@ -27,6 +27,14 @@ body {
   place-content: center;
 }
 
+.welcome-title {
+  font-size: 20px;
+}
+
+.welcome-guarantee {
+  font-size: 15px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
