@@ -22,6 +22,9 @@ dd {
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
+  background-color: #fff;
+  display: grid;
+  place-content: center;
 }
 
 .attribution {
