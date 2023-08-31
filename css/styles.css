@@ -35,6 +35,12 @@ button {
 
 .wrapper {
   max-width: 635px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.wrapper > * {
+  grid-column: 1 / -1;
 }
 
 .welcome {
@@ -109,7 +115,6 @@ button {
   font-size: 14px;
   font-weight: 400;
   opacity: 0.75;
-  /* line-height: 1.25; */
 }
 
 .attribution {
