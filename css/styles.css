@@ -79,6 +79,8 @@ button {
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding: 24px;
+  gap: 18px;
 }
 
 .subscription-title {
@@ -92,6 +94,7 @@ button {
 }
 
 .subscription-cost span {
+  display: inline-block;
   font-size: 16px;
   font-weight: 400;
   opacity: 0.5;
@@ -108,6 +111,9 @@ button {
   border: none;
   border-radius: 5px;
   font-weight: 700;
+  padding: 1rem;
+  margin-top: 8px;
+  box-shadow: 0 10px 10px 0 #20a2a0;
 }
 
 .summary {
