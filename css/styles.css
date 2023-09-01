@@ -35,7 +35,7 @@ button {
 }
 
 .wrapper {
-  max-width: 311px;
+  max-width: 635px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -143,4 +143,18 @@ button {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 500px) {
+  .welcome {
+    grid-column: 1 / span 2;
+  }
+
+  .subscription {
+    grid-column: 1;
+  }
+
+  .summary {
+    grid-column: 2;
+  }
 }
