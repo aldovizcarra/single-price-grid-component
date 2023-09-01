@@ -117,6 +117,11 @@ button {
   box-shadow: 0 10px 10px 0 #20a2a0;
 }
 
+.button:hover {
+  background-color: #b9d732;
+  cursor: pointer;
+}
+
 .summary {
   background-color: #45bfbd;
   display: flex;
@@ -140,13 +145,15 @@ button {
 .attribution {
   font-size: 11px;
   text-align: center;
-}
-
-.attribution a {
   color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 500px) {
+.attribution a {
+  text-decoration: none;
+  color: #2ab3b1;
+}
+
+@media screen and (min-width: 500px) {
   .welcome {
     grid-column: 1 / span 2;
     padding: 40px;
