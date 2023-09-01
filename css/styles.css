@@ -118,11 +118,16 @@ button {
 
 .summary {
   background-color: #45bfbd;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 5px;
 }
 
 .summary-title {
   font-size: 18px;
   font-weight: 700;
+  margin-bottom: 13px;
 }
 
 .summary-description {
