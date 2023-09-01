@@ -148,6 +148,20 @@ button {
 @media (min-width: 500px) {
   .welcome {
     grid-column: 1 / span 2;
+    padding: 40px;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .welcome-title {
+    font-size: 24px;
+  }
+
+  .welcome-guarantee {
+    font-size: 18px;
+  }
+
+  .welcome-description {
+    font-size: 16px;
   }
 
   .subscription {
